@@ -9,6 +9,7 @@ This program will take the necessary information to create a Saint Patrick email
 ### Additional Functionality
   - Make sure that all strings are in lowercase.
     - read this [convert string to lowercase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+    - You are encouraged to create variables instead of typing it all on one gigantic line.
   - Create a teacher specific email function named teacherEmail() that only takes a first name and a last name.
   - Create a new function named graduationYear() that will take your grade and output the correct year.
     - read this [JavaScript always knows which year it is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear)
