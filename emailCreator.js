@@ -1,5 +1,7 @@
 function email(first, last, year){
-  var emailAddress = graduationYear(year)+first[0]+last+"@stpatrick.org";
+  var firstname = first.toLowerCase();
+  var lastname = last.toLowerCase();
+  var emailAddress = graduationYear(year)+firstname[0]+lastname+"@stpatrick.org";
   return emailAddress;
 }
 
