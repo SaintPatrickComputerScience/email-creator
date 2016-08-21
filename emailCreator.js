@@ -11,7 +11,7 @@ function teacherEmail(first, last){
 function graduationYear(grade){
 
   if(typeof(grade)== "number"){
-    return String(year % 10);
+    return String(grade % 10);
   }
   
   else if(typeof(grade) == "string"){
